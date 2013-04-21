@@ -244,16 +244,17 @@ public class FactionsListenerMain implements Listener
 			}
 		}
 
-		Rel relation = defendFaction.getRelationTo(attackFaction);
+		//Rel relation = defendFaction.getRelationTo(attackFaction);
 
 		// Check the relation
-		if (fdefender.hasFaction() && relation.isFriend() && defenderPsFaction.getFlag(FFlag.FRIENDLYFIRE) == false)
-		{
-			if (notify) fattacker.msg("<i>You can't hurt %s<i>.", relation.getDescPlayerMany());
-			return false;
-		}
+		//if (fdefender.hasFaction() && relation.isFriend() && defenderPsFaction.getFlag(FFlag.FRIENDLYFIRE) == false)
+		//{
+			//if (notify) fattacker.msg("<i>You can't hurt %s<i>.", relation.getDescPlayerMany());
+			//return false;
+		//}
 
 		// You can not hurt neutrals in their own territory.
+		/**
 		boolean ownTerritory = fdefender.isInOwnTerritory();
 		if (fdefender.hasFaction() && ownTerritory && relation == Rel.NEUTRAL)
 		{
@@ -282,6 +283,7 @@ public class FactionsListenerMain implements Listener
 
 		return true;
 	}
+	*/
 	
 	// -------------------------------------------- //
 	// REMOVE PLAYER DATA WHEN BANNED

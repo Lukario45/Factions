@@ -28,8 +28,8 @@ public enum Rel
 	private final int value;
 	
 	// Used for friendly fire.
-	private final boolean friend;
-	public boolean isFriend() { return this.friend; }
+	//private final boolean friend;
+	//public boolean isFriend() { return this.friend; }
 	
 	private final String descPlayerOne;
 	public String getDescPlayerOne() { return this.descPlayerOne; }

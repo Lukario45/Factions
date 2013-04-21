@@ -1,4 +1,4 @@
-package com.massivecraft.factions;
+0package com.massivecraft.factions;
 
 import java.util.*;
 import java.util.Map.Entry;
